@@ -1,20 +1,22 @@
-package com.example.SpringJDBC;
+package com.example.SpringJDBC.Model;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("prototype")
 public class Student
 {
     private int rollNo;
     private String name;
-    private String marks;
+    private int marks;
 
-    public String getMarks()
+    public int getMarks()
     {
         return marks;
     }
 
-    public void setMarks(String marks)
+    public void setMarks(int marks)
     {
         this.marks = marks;
     }
