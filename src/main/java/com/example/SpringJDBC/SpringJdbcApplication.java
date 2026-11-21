@@ -19,9 +19,9 @@ public class SpringJdbcApplication
 
 		Student s = context.getBean(Student.class);
 
-		s.setRollNo(101);
-		s.setName("Spring JDBC");
-		s.setMarks(79);
+		s.setRollNo(104);
+		s.setName("Usha");
+		s.setMarks(89);
 
 		StudentService service = context.getBean(StudentService.class);
 
