@@ -23,6 +23,10 @@ public class SpringJdbcApplication
 		s.setName("Usha");
 		s.setMarks(89);
 
+		s.setRollNo(105);
+		s.setName("Radhaaaaa");
+		s.setMarks(96);
+
 		StudentService service = context.getBean(StudentService.class);
 
 		service.addStudent(s);
